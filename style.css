@@ -1,17 +1,19 @@
+body{
+  background-color: #e74c3c;
+}
+
 .container {
 justify-content: center;
 display: flex;
-gap: 100px;
-margin-top: 60px;
-display: grid;
-grid-template-columns: repeat(4,1fr)
+gap: 20px;
+
 }
 .card {
    width: 16rem;
    height: 320px;
    border-radius: 15px;
-   box: shadow 0 1px 2px rgba(0.0.0.0.2)
-   overflow: hidden;
+   box-shadow: #000000;
+   margin-bottom: 90px;
 }
 
 .card img {
@@ -39,6 +41,31 @@ grid-template-columns: repeat(4,1fr)
             color: #fff;
             text-decoration: none;
           }
+
+          .iklan {
+            width: 32rem;
+            border-radius: 15px;
+            box: shadow 0 1px 2px rgba(0.0.0.0.2)
+         }
+         
+         .iklan img {
+             width: 100%;
+             height: 250px;
+             display: block;
+         }
+
+        .category {
+          width: 4rem;
+          box-shadow: 1px 1px 2px #000000;
+          overflow: hidden;
+          margin: 16px;
+          border-radius: 100%;
+        }
+        .category img {
+          width: 100%;
+          height: 70px;
+          display: block;
+        }
 
  
 
